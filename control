@@ -1,0 +1,21 @@
+Source: glabels-qt
+Section: graphics
+Priority: optional
+Maintainer: Kristopher Ives <kristopher.ives@gmail.com>
+Build-Depends:
+ debhelper (>= 10),
+ cmake, extra-cmake-modules,
+ qt5base-dev,
+ qttools5-dev,
+ qttools5-dev-tools,
+ libqt5svg5-dev,
+ zlib1g-dev
+Standards-Version: 4.1.2
+Homepage: https://glabels.org/
+Vcs-Git: https://github.com/jimevins/glabels-qt.git
+Vcs-Browser: https://github.com/jimevins/glabels-qt
+
+Package: glabels-qt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: gLabels Label Designer (Qt/C++)
