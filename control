@@ -5,7 +5,6 @@ Maintainer: Kristopher Ives <kristopher.ives@gmail.com>
 Build-Depends:
  debhelper (>= 10),
  cmake, extra-cmake-modules,
- qt5base-dev,
  qttools5-dev,
  qttools5-dev-tools,
  libqt5svg5-dev,
