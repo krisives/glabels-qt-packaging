@@ -8,7 +8,8 @@ Build-Depends:
  qttools5-dev,
  qttools5-dev-tools,
  libqt5svg5-dev,
- zlib1g-dev
+ zlib1g-dev,
+ libqrencode-dev
 Standards-Version: 4.1.2
 Homepage: https://glabels.org/
 Vcs-Git: https://github.com/jimevins/glabels-qt.git
